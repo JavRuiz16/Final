@@ -28,7 +28,7 @@ internal class Program
         // mailfrom domain of your email service on Azure
         var sender = "YourDomain";
 
-        Console.WriteLine("Please input an email address: ");
+        Console.WriteLine("jrruiz1@buffs.wtamu.edu: ");
         string inputEmail = Console.ReadLine();
         var emailRecipients = new EmailRecipients(new List<EmailAddress> {
             new EmailAddress(inputEmail) { DisplayName = "Testing" },
