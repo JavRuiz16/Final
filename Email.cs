@@ -6,7 +6,7 @@ using Azure;
 using Azure.Communication.Email;
 using Azure.Communication.Email.Models;
 namespace Final;
-internal class Program
+internal class Final
 {
     static async Task Main(string[] args)
     {
@@ -18,20 +18,20 @@ internal class Program
         emailContent.Html= @"
                     <html>
                         <body>
-                            <h1 style=color:red>Testing Email for Azure Email Service</h1>
+                            <h1 style=color:red>Package Notificaiton System</h1>
                             <h4>This is a HTML content</h4>
-                            <p>Happy Learning!!</p>
+                            <p>Your package has arrived!!</p>
                         </body>
                     </html>";
 
 
-        // mailfrom domain of your email service on Azure
-        var sender = "YourDomain";
+  
+        var sender = "Domain";
 
         Console.WriteLine("jrruiz1@buffs.wtamu.edu: ");
         string inputEmail = Console.ReadLine();
         var emailRecipients = new EmailRecipients(new List<EmailAddress> {
-            new EmailAddress(inputEmail) { DisplayName = "Testing" },
+            new EmailAddress(inputEmail) { DisplayName = "package Notificaiotn" },
         });
 
         var emailMessage = new EmailMessage(sender, emailContent, emailRecipients);
@@ -51,7 +51,6 @@ internal class Program
                 return;
             }
 
-            // wait max 2 minutes to check the send status for mail.
             var cancellationToken = new CancellationTokenSource(TimeSpan.FromMinutes(2));
             do
             {
@@ -77,3 +76,7 @@ internal class Program
         }
     }
 }
+
+
+
+ 
