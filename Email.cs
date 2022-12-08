@@ -8,6 +8,8 @@ using Azure.Communication.Email.Models;
 namespace Final;
 internal class Final
 {
+    private static string serviceConnectionString;
+
     static async Task Main(string[] args)
     {
   
