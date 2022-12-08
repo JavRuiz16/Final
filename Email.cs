@@ -12,7 +12,7 @@ internal class Final
     {
   
         EmailClient emailClient = new EmailClient(serviceConnectionString);
-        var subject = "Hello CIDM4360/5360 Week10";
+        var subject = "Package Management System";
         var emailContent = new EmailContent(subject);
         // use Multiline String @ to design html content
         emailContent.Html= @"
