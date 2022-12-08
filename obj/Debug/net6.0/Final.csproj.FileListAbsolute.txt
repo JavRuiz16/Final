@@ -1,0 +1,5 @@
+C:\Users\JavRu\Desktop\Fall 2022\CIDM 4360\Final\obj\Debug\net6.0\Final.csproj.AssemblyReference.cache
+C:\Users\JavRu\Desktop\Fall 2022\CIDM 4360\Final\obj\Debug\net6.0\Final.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JavRu\Desktop\Fall 2022\CIDM 4360\Final\obj\Debug\net6.0\Final.AssemblyInfoInputs.cache
+C:\Users\JavRu\Desktop\Fall 2022\CIDM 4360\Final\obj\Debug\net6.0\Final.AssemblyInfo.cs
+C:\Users\JavRu\Desktop\Fall 2022\CIDM 4360\Final\obj\Debug\net6.0\Final.csproj.CoreCompileInputs.cache
